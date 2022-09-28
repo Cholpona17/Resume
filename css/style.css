@@ -1,0 +1,166 @@
+@import url('http://fonts.cdnfonts.com/css/balqis');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+body {
+    background: blueviolet;
+    background: linear-gradient(to left, blue, black);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+
+.h_all h3,
+h1 {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.h_all h2 {
+    font-size: 75px;
+    color: black;
+    font-family: 'Balqis';
+    transition: 0.8s;
+}
+
+.h_all p {
+    color: white;
+    font-size: 15px;
+    line-height: 2;
+    font-family: 'Montserrat';
+
+}
+
+
+.logo_all img {
+    margin-top: 190px;
+    width: 75px;
+    height: 85px;
+}
+
+.about_img img {
+    border-radius: 5%;
+
+}
+
+.goal h2 {
+    color: rgb(87, 87, 243);
+
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 1%;
+
+}
+
+.goal p {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    margin-top: 1%;
+}
+
+.education p {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    margin-top: 1%;
+}
+
+.education h2 {
+    color: rgb(87, 87, 243);
+
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 1%;
+}
+
+.skills p {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    margin-top: 1%;
+    line-height: 2;
+}
+
+.skills h2 {
+    color: rgb(87, 87, 243);
+
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 1%;
+}
+
+.skills {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project h2 {
+    color: rgb(87, 87, 243);
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+a {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    margin-top: 1%;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.project p {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    margin-top: 1%;
+    line-height: 2;
+}
+
+.qualities p {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    margin-top: 1%;
+}
